@@ -1,0 +1,28 @@
+{
+  "name": "express-react-vanilla-adapter",
+  "version": "0.4.4",
+  "description": "Adapt react-vanilla as express templates",
+  "main": "express-adapter.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "express": "*"
+  },
+  "author": "Ivan Kubota",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/helper-plugin-utils": "^7.21.5",
+    "@babel/plugin-transform-modules-amd": "^7.20.11",
+    "@babel/plugin-transform-react-jsx": "^7.22.3",
+    "@babel/plugin-transform-runtime": "^7.22.4",
+    "@babel/preset-env": "^7.22.4",
+    "@babel/template": "^7.21.9",
+    "react-vanilla": "^1.1.21",
+    "recursive-watch": "^1.1.4"
+  }
+}
